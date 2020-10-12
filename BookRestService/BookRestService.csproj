@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="BookClassLibrary">
+      <HintPath>ExternalDll\BookClassLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+
+</Project>

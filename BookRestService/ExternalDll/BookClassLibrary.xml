@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BookClassLibrary</name>
+    </assembly>
+    <members>
+        <member name="P:BookClassLibrary.Book.Author">
+            <summary>
+            default properties for Author
+            </summary>
+        </member>
+        <member name="P:BookClassLibrary.Book.Title">
+            <summary>
+            Book Titles property that allows titles only over 2 chars. in length
+            </summary>
+        </member>
+        <member name="P:BookClassLibrary.Book.PageNumber">
+            <summary>
+            Books PageNumber property which will throw an error if the int value
+            is below 10 or over 1000
+            </summary>
+        </member>
+        <member name="P:BookClassLibrary.Book.Isbn13">
+            <summary>
+            Books Isbn13 property which only allows strings that are
+            13 chars in length
+            </summary>
+        </member>
+    </members>
+</doc>
